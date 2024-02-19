@@ -1,0 +1,49 @@
+html{height:100%;}
+body {background: rgb(184,193,236);
+  background: linear-gradient(180deg, rgba(184,193,236,1) 0%, rgba(184,193,236,0.65) 100%); color: #232946;  font-family: "Raleway", sans-serif; font-optical-sizing: auto;font-weight: 400;}
+
+h1, h2{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+h1 {
+  font-size: 32px;
+  margin:0;
+  padding: 16px 0;}
+h2 {
+  font-size: 26px;
+}
+
+a {text-decoration: none;}
+p {width: 80%;margin: auto;}
+ul{padding: 0;}
+ul > li{display: inline-block;font-size: 40px;padding: 0 8px;}
+ul > li > a{color: #b8c1ec;transition: 0.8s cubic-bezier(0.71,-0.01, 0.24, 0.99);}
+ul > li > a:hover{color: #232946;box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;}
+
+.cta-primary{ background-color: #232946; color: #fffffe;padding:12px 16px;border-radius:4px;display: inline-block;margin: 30px 0;font-weight: 600;transition: 0.8s cubic-bezier(0.71,-0.01, 0.24, 0.99);}
+.cta-primary:hover{background-color: #eebbc3; color: #232946;}
+.circle_img{width:150px;height:150px;border-radius: 50%;margin-bottom:16px;}
+.card{background-color: #fffffe; box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;border-radius: 8px;padding:16px 0;display: block;margin-bottom: 24px;;}
+
+#container{width:750px; margin: 0 auto;text-align: center;margin-top:24px;}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  #container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .circle_img{width:125px;height:125px;border-radius: 50%;}
+
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .circle_img{width:100px;height:100px;border-radius: 50%;}
+}
